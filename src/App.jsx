@@ -1,5 +1,5 @@
 import React,{useEffect,useMemo,useState}from'react';
-const API='http://localhost:8080/api';
+const API = 'https://hospital-management-system-s2h9.onrender.com/api';
 export default function App(){
  const [role,setRole]=useState('Admin'),[tab,setTab]=useState('Dashboard'),[patients,setPatients]=useState([]),[doctors,setDoctors]=useState([]),[appointments,setAppointments]=useState([]),[error,setError]=useState(''),[notice,setNotice]=useState('');
  const [patientId,setPatientId]=useState(''),[doctorId,setDoctorId]=useState('');
